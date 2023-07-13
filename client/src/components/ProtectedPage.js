@@ -42,7 +42,7 @@ function ProtectedPage({ children }) {
         {/* header */}
         <div className="flex justify-between items-center bg-primary text-white px-5 py-3 mx-5 rounded-b">
           <div onClick={() => navigate("/")} className="cursor-pointer">
-            <h1 className="text-2xl">BloodMinder</h1>
+            <h1 className="text-2xl">VitalLink</h1>
             <span className="text-xs">
               {currentUser.userType.toUpperCase()}
             </span>
